@@ -1,6 +1,6 @@
 package ch05;
 
-import jakarta.servlet.ServletException;
+import jakarta.servlet.ServletException;		
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
@@ -8,10 +8,13 @@ import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-// 웹 브라우저 주소창에 localhost:8090/jw/hello 을 입력했을 경우 처리하는 코드
+/**
+ * Servlet implementation class Ex01_firstServlet
+ */
+//	웹 브라우저 주소창에 localhost:8080/jw/hello을 입력했을  경우 처리하는 코드 
 @WebServlet({"/hello", "/ch05/hello"})
-public class Ex01_FirstServlet extends HttpServlet {
-	// Get 방식의 요청이 왔을때 처리해주는 코드
+public class Ex01_firstServlet extends HttpServlet {
+	// Get 방식의 요청이 왔을때 처리해주는 코드 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		String html = "<!DOCTYPE html>"
 				+ "<html>"
@@ -28,7 +31,8 @@ public class Ex01_FirstServlet extends HttpServlet {
 		out.print(html);
 	}
 
-	// Post 방식의 요청이 왔을때 처리해주는 코드
+	
+	 // Post 요청이 왔을 때 처리해주는 코드 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		doGet(request, response);

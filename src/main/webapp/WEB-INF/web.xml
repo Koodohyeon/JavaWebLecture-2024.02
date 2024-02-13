@@ -11,16 +11,6 @@
   </welcome-file-list>
   <servlet>
     <description></description>
-    <display-name>Ex01</display-name>
-    <servlet-name>Ex01</servlet-name>
-    <servlet-class>ch05.Ex01</servlet-class>
-  </servlet>
-  <servlet-mapping>
-    <servlet-name>Ex01</servlet-name>
-    <url-pattern>/Ex01</url-pattern>
-  </servlet-mapping>
-  <servlet>
-    <description></description>
     <display-name>Ex01_firstServlet</display-name>
     <servlet-name>Ex01_firstServlet</servlet-name>
     <servlet-class>ch05.Ex01_firstServlet</servlet-class>
@@ -28,5 +18,45 @@
   <servlet-mapping>
     <servlet-name>Ex01_firstServlet</servlet-name>
     <url-pattern>/Ex01_firstServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Ex02_LifeCycle2</display-name>
+    <servlet-name>Ex02_LifeCycle2</servlet-name>
+    <servlet-class>ch05.Ex02_LifeCycle2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Ex02_LifeCycle2</servlet-name>
+    <url-pattern>/Ex02_LifeCycle2</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Ex01_RequestMethod</display-name>
+    <servlet-name>Ex01_RequestMethod</servlet-name>
+    <servlet-class>ch06_basic.Ex01_RequestMethod</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Ex01_RequestMethod</servlet-name>
+    <url-pattern>/Ex01_RequestMethod</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>EX02_Parameter</display-name>
+    <servlet-name>EX02_Parameter</servlet-name>
+    <servlet-class>ch06_basic.EX02_Parameter</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>EX02_Parameter</servlet-name>
+    <url-pattern>/EX02_Parameter</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Ex02_parameter</display-name>
+    <servlet-name>Ex02_parameter</servlet-name>
+    <servlet-class>ch06_basic.Ex02_parameter</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Ex02_parameter</servlet-name>
+    <url-pattern>/Ex02_parameter</url-pattern>
   </servlet-mapping>
 </web-app>
