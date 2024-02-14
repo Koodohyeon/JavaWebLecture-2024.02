@@ -59,4 +59,44 @@
     <servlet-name>Ex02_parameter</servlet-name>
     <url-pattern>/Ex02_parameter</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Ex03_Calculator</display-name>
+    <servlet-name>Ex03_Calculator</servlet-name>
+    <servlet-class>ch06_basic.Ex03_Calculator</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Ex03_Calculator</servlet-name>
+    <url-pattern>/Ex03_Calculator</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Ex04_RegisterMember</display-name>
+    <servlet-name>Ex04_RegisterMember</servlet-name>
+    <servlet-class>ch06_basic.Ex04_RegisterMember</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Ex04_RegisterMember</servlet-name>
+    <url-pattern>/Ex04_RegisterMember</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Ex05_Login</display-name>
+    <servlet-name>Ex05_Login</servlet-name>
+    <servlet-class>ch06_basic.Ex05_Login</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Ex05_Login</servlet-name>
+    <url-pattern>/Ex05_Login</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>User</display-name>
+    <servlet-name>User</servlet-name>
+    <servlet-class>ch06_basic.User</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>User</servlet-name>
+    <url-pattern>/User</url-pattern>
+  </servlet-mapping>
 </web-app>
