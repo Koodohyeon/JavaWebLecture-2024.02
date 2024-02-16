@@ -124,4 +124,9 @@ public class CityDao {
 		
 	}
 
+	public City getCity(String id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }

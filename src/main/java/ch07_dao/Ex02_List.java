@@ -27,10 +27,12 @@ public class Ex02_List extends HttpServlet {
 		List<City> list = cDao.getCityList(district, num, offset);
 		list.forEach(X -> System.out.println(X));
 		
+		
 		/*
 		 * RequestDispatcher rd = request.getRequestDispatcher("/ch07/list.jsp");
 		 * request.setAttribute("list", list); rd.forward(request, response);
 		 */
+		 
 		
 		String data = "";
 		for (City c: list) {
