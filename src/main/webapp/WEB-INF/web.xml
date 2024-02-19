@@ -159,4 +159,44 @@
     <servlet-name>kcityController</servlet-name>
     <url-pattern>/kcityController</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>girl_group</display-name>
+    <servlet-name>girl_group</servlet-name>
+    <servlet-class>ch07_dao.gril_groupsong.girl_group</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>girl_group</servlet-name>
+    <url-pattern>/girl_group</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>song</display-name>
+    <servlet-name>song</servlet-name>
+    <servlet-class>ch07_dao.girl_groupsong.song</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>song</servlet-name>
+    <url-pattern>/song</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Artist</display-name>
+    <servlet-name>Artist</servlet-name>
+    <servlet-class>ch07_dao.kpop.Artist</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Artist</servlet-name>
+    <url-pattern>/Artist</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>KpopController</display-name>
+    <servlet-name>KpopController</servlet-name>
+    <servlet-class>ch07_dao.kpop.KpopController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>KpopController</servlet-name>
+    <url-pattern>/KpopController</url-pattern>
+  </servlet-mapping>
 </web-app>
