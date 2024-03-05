@@ -35,7 +35,11 @@
         <Resource name="jdbc/bbs" auth="Container" type="javax.sql.DataSource"
             username="hmuser" password="hmpass" 
             driverClassName="com.mysql.cj.jdbc.Driver"
-            url="jdbc:mysql://localhost:3306/world" />
-    
+            url="jdbc:mysql://localhost:3306/bbs" />
+            
+		<Resource name="jdbc/dog" auth="Container" type="javax.sql.DataSource"
+            username="hmuser" password="hmpass" 
+            driverClassName="com.mysql.cj.jdbc.Driver"
+            url="jdbc:mysql://localhost:3306/dog" />    
     
 </Context>
